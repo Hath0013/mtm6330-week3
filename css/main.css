@@ -1,2 +1,9 @@
 body {
-  background-color: #282c34; }
+  background-color: #282c34;
+  color: blue; }
+
+nav {
+  height: 70px;
+  background-color: #000; }
+  nav.inverted {
+    background-color: #fff; }
