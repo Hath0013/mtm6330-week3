@@ -1,17 +1,22 @@
-$deep-grey: #282c34;
-$white-text: rgba(255,255,255, .89);
+$light-bg-color: #eee;
+$dark-bg-color: #41528f;
+$highlights: #b0d5ea;
+$base-font-color: #333;
+$dark-font-color: #d96866;
+$light-font-color: #ea8b7e;
+
+
+
+
 
 body {
-  background-color: $deep-grey;
-  color: blue;
+  background-color: $light-bg-color;
+  color: $base-font-color;
 }
 
 nav {
   height: 70px;
-  background-color: #000;
-  &.inverted {
-    background-color: #fff;
-  }
+  background-color: $light-bg-color;
 
   ul {
 
